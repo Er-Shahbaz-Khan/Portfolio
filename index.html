@@ -1,40 +1,189 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio.MSK</title>
-    <script src="https://kit.fontawesome.com/c52118fc63.js" crossorigin="anonymous"></script>
-    <style>
-        *{font-style:oblique; background-image: url(backgroung.jpg);}
-        #image{display: block; margin: auto;}
-        .link{text-decoration: none; text-align: center;}
-        .center{text-align: center;}
-        .link2{text-decoration: none; margin-left: 20px; margin-bottom:200px;}
-        #table{text-align: center;}
-        
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohd Shahbaz Khan | Portfolio</title>  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/c52118fc63.js" crossorigin="anonymous"></script>  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
 
-        </style>
-</head> 
-<body>
-    <div id="head"><b><h1 class="center">Porfolio of Mohd Shahbaz Khan</h1></b></div>
-    <header style="text-align: center;">
-     <nav>
-        <a href="#1" class="link">Profile Photo</a>
-     </nav>
-     <nav>
-        <a href="#2" class="link">About me</a>
-     </nav>
-     <nav>
-        <a href="#Personal" class="link">Personal Details</a>
-     </nav>
-     <nav>
-        <a href="#dev" class="link">Web-developer</a>
-     </nav>
-     <nav>
-        <a href="#3" class="link">Education</a>
-     </nav>
-     <nav>
+    body {
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color: #fff;
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      background: rgba(15, 23, 42, 0.9);
+      padding: 15px 0;
+      text-align: center;
+      backdrop-filter: blur(10px);
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #38bdf8;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h1, h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .hero img {
+      display: block;
+      margin: 20px auto;
+      width: 180px;
+      border-radius: 50%;
+      border: 4px solid #38bdf8;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 20px;
+      border-radius: 12px;
+      margin: 15px 0;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    ul li {
+      padding: 8px 0;
+    }
+
+    .skills span {
+      display: inline-block;
+      background: #38bdf8;
+      color: #000;
+      padding: 6px 10px;
+      border-radius: 6px;
+      margin: 5px;
+      font-size: 14px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    table, th, td {
+      border: 1px solid #334155;
+    }
+
+    th, td {
+      padding: 10px;
+      text-align: center;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #020617;
+    }
+
+    .social a {
+      margin: 10px;
+      color: #fff;
+      font-size: 20px;
+      transition: 0.3s;
+    }
+
+    .social a:hover {
+      color: #38bdf8;
+    }
+
+    @media (max-width: 600px) {
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+    }
+  </style></head><body><header>
+  <h1>Mohd Shahbaz Khan</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#education">Education</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header><section class="hero">
+  <img src="msk.jpg" alt="Profile Photo">
+  <h2>Web Developer</h2>
+  <p style="text-align:center; max-width:600px; margin:auto;">
+    Passionate developer building modern, responsive, and user-friendly web experiences.
+  </p>
+</section><section id="about">
+  <h2>About Me</h2>
+  <div class="card">
+    <p>
+      I am a dedicated and hardworking individual with a strong passion for web development.
+      I love solving problems, learning new technologies, and building meaningful digital experiences.
+    </p>
+  </div>
+</section><section id="skills">
+  <h2>Skills</h2>
+  <div class="card skills">
+    <span>C</span>
+    <span>C++</span>
+    <span>Java</span>
+    <span>Python</span>
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>MySQL</span>
+    <span>Linux</span>
+  </div>
+</section><section id="education">
+  <h2>Education</h2>
+  <div class="card">
+    <ul>
+      <li>High School - AMU (2014)</li>
+      <li>Diploma in Civil Engineering - AMU (2017)</li>
+      <li>B.Tech Civil Engineering - UPTU Lucknow (2020)</li>
+    </ul>
+  </div>
+</section><section id="experience">
+  <h2>Experience</h2>
+  <div class="card">
+    <ul>
+      <li>Technical Support - Softnice Pvt Ltd (2020)</li>
+      <li>Backend Operations - Regency Impex (2021-2023)</li>
+      <li>Developer & Support Engineer - Good To Go Foodworks (2023-Present)</li>
+    </ul>
+  </div>
+</section><section id="contact">
+  <h2>Contact</h2>
+  <div class="social">
+    <a href="https://www.instagram.com/er_shahbaz__khan" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+    <a href="https://www.facebook.com/profile.php?id=100008307669599" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+    <a href="https://wa.link/i4cyq6" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+  </div>
+</section><footer>
+  <p>© 2026 Mohd Shahbaz Khan | All Rights Reserved</p>
+</footer></body>
+</html>     <nav>
         <a href="#4" class="link">Skills</a>
      </nav>
      <nav>
